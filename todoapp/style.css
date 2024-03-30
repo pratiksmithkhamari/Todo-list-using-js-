@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background: url('todo.jpg') no-repeat center center/cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 30%;
+    height: 60%;
+background-color: #fff;
+    border-radius:8px ;
+    padding: 18px;
+}
+
+#taskbox{
+    padding: 8px;
+    width: 100%;
+    box-shadow: rgb(149, 29, 29)0px 1px 2px;
+    border: none;
+    font-weight: bold;
+    display: block;
+    font-size: 1.2rem;
+    user-select: none;
+
+}
+
+ 
+#todoitems li{
+    list-style: none;
+    margin-top: 10px;
+    background-color: #0e0202a5;
+    padding: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: red;
+    background-color: rgb(86, 39, 39) !important;
+    
+}
+
+ 
